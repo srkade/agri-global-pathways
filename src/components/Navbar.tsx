@@ -13,10 +13,10 @@ const Navbar = () => {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "Programs", href: "#programs" },
-    { name: "Countries", href: "#countries" },
-    { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    { name: "Programs", href: "/programs" },
+    { name: "Countries", href: "/countries" },
+    { name: "About", href: "/about" },
+    { name: "Contact", href: "/contact" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
