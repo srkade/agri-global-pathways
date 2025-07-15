@@ -30,8 +30,12 @@ const AdminDashboard = () => {
   const [countryFilter, setCountryFilter] = useState("all");
 
   useEffect(() => {
-    if (!user || !user.isAdmin) {
+    if (!user) {
       navigate("/login");
+      return;
+    }
+    if (!user.isAdmin) {
+      navigate("/dashboard"); // Redirect non-admin users to user dashboard
     }
   }, [user, navigate]);
 

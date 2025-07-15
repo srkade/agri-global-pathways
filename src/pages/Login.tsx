@@ -35,7 +35,12 @@ const Login = () => {
           title: "Welcome back!",
           description: "You have successfully signed in.",
         });
-        navigate("/dashboard");
+        // Redirect admin to admin dashboard, regular users to user dashboard
+        if (email === 'admin@agripath.com') {
+          navigate("/admin");
+        } else {
+          navigate("/dashboard");
+        }
       } else {
         setError("Invalid email or password");
       }
