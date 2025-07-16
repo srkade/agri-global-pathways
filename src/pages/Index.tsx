@@ -264,6 +264,24 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Floating Call Button */}
+      <div className="fixed bottom-6 right-6 z-50">
+        <a 
+          href="tel:+919876543210" 
+          className="group flex items-center bg-green-600 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-700 transition-all duration-200 hover:scale-105"
+        >
+          <div className="bg-white/20 rounded-full p-2 mr-3">
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 11.19 11.19 0 003.48.56 1 1 0 011 1V20a1 1 0 01-1 1A18 18 0 013 3a1 1 0 011-1h3.5a1 1 0 011 1 11.19 11.19 0 00.56 3.48 1 1 0 01-.27 1.11l-2.2 2.2z"/>
+            </svg>
+          </div>
+          <div className="text-left">
+            <div className="text-sm font-semibold">Call Now</div>
+            <div className="text-xs opacity-90">+91 98765 43210</div>
+          </div>
+        </a>
+      </div>
+
       <Footer />
     </div>
   );
