@@ -276,7 +276,7 @@ const Index = () => {
             </svg>
           </div>
           <div className="text-left">
-            <div className="text-sm font-semibold">Call Now</div>
+            <div className="text-sm font-semibold">Get Free Consultation</div>
             <div className="text-xs opacity-90">+91 98765 43210</div>
           </div>
         </a>
