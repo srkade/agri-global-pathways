@@ -22,44 +22,50 @@ const Index = () => {
   const testimonials = [
     {
       name: "Priya Sharma",
-      location: "Punjab, India",
+      location: "Maharashtra, India",
       destination: "Germany",
-      quote: "AgriPath helped me secure a dairy farming internship in Bavaria. The guidance was exceptional!",
+      quote: "Go2Agro helped me secure a greenhouse farming internship in Bavaria. The visa assistance and pre-departure training were excellent!",
       rating: 5,
-      program: "Dairy Management"
+      program: "Greenhouse Farming"
     },
     {
       name: "Rahul Patel",
       location: "Gujarat, India", 
-      destination: "Netherlands",
-      quote: "From application to visa support, everything was seamless. Now I'm learning sustainable farming techniques.",
+      destination: "United Kingdom",
+      quote: "From application to placement, Go2Agro guided me every step. Now I'm gaining valuable experience in UK dairy farming.",
       rating: 5,
-      program: "Sustainable Agriculture"
+      program: "Dairy Management"
     },
     {
       name: "Meera Singh",
-      location: "Haryana, India",
-      destination: "New Zealand",
-      quote: "The document preparation support was incredible. I got my dream internship in organic farming!",
+      location: "Punjab, India",
+      destination: "Germany",
+      quote: "The international exposure and hands-on training I received through Go2Agro transformed my agricultural knowledge!",
       rating: 5,
-      program: "Organic Farming"
+      program: "Mixed Farming"
     }
   ];
 
   const countries = [
-    { name: "Germany", flag: "🇩🇪", programs: 15, avgSalary: "€1,200/month" },
-    { name: "Netherlands", flag: "🇳🇱", programs: 12, avgSalary: "€1,400/month" },
-    { name: "New Zealand", flag: "🇳🇿", programs: 8, avgSalary: "NZD 2,000/month" },
-    { name: "United Kingdom", flag: "🇬🇧", programs: 10, avgSalary: "£1,100/month" },
-    { name: "Canada", flag: "🇨🇦", programs: 7, avgSalary: "CAD 1,800/month" },
-    { name: "Australia", flag: "🇦🇺", programs: 9, avgSalary: "AUD 2,200/month" }
+    { 
+      name: "Germany", 
+      flag: "🇩🇪", 
+      programs: "Greenhouse, Dairy, Mixed Farming", 
+      features: "Advanced agricultural technology, structured training programs"
+    },
+    { 
+      name: "United Kingdom", 
+      flag: "🇬🇧", 
+      programs: "Dairy, Poultry, Crop Management", 
+      features: "Modern farming practices, English-speaking environment"
+    }
   ];
 
   const process = [
-    { step: 1, title: "Create Profile", description: "Complete your profile with personal and educational details", icon: Users },
-    { step: 2, title: "Upload Documents", description: "Submit passport, certificates, and language proofs", icon: FileText },
-    { step: 3, title: "Application Review", description: "Our experts review and optimize your application", icon: CheckCircle },
-    { step: 4, title: "Placement Success", description: "Get matched with top agricultural programs abroad", icon: Award }
+    { step: 1, title: "Application Form", description: "Fill the online application form at go2agro.com", icon: FileText },
+    { step: 2, title: "Document Verification", description: "Submit academic qualifications, ID proof, and relevant documents", icon: CheckCircle },
+    { step: 3, title: "Interview & Selection", description: "Telephonic/virtual interview and program selection", icon: Users },
+    { step: 4, title: "Visa & Departure", description: "Visa assistance, fee payment, and pre-departure training", icon: Award }
   ];
 
   return (
@@ -70,17 +76,17 @@ const Index = () => {
       <section className="pt-20 pb-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <Badge className="mb-6 bg-green-100 text-green-800 hover:bg-green-200 text-sm px-4 py-2">
-            🌾 #1 Platform for Agricultural Internships Abroad
+            🌾 Go2Agro Services LLP - Pune Based Agricultural Training & Consulting
           </Badge>
           
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Your Gateway to
-            <span className="text-green-600 block mt-2">Global Agriculture</span>
+            <span className="text-green-600 block mt-2">International Agriculture</span>
           </h1>
           
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Connect with premium agricultural and dairy farming internships across Europe, 
-            North America, and Oceania. Turn your farming passion into international experience.
+            Empowering the next generation of agri-professionals with international internships, 
+            professional development programs, and real-world experience in Germany and the UK.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -100,20 +106,20 @@ const Index = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-600">500+</div>
-              <div className="text-gray-600">Successful Placements</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600">15</div>
+              <div className="text-3xl font-bold text-green-600">2</div>
               <div className="text-gray-600">Partner Countries</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-600">95%</div>
-              <div className="text-gray-600">Visa Success Rate</div>
+              <div className="text-3xl font-bold text-blue-600">30 Days</div>
+              <div className="text-gray-600">APDP Program</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600">24/7</div>
-              <div className="text-gray-600">Support Available</div>
+              <div className="text-3xl font-bold text-green-600">Pune</div>
+              <div className="text-gray-600">Based Company</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-blue-600">Expert</div>
+              <div className="text-gray-600">Visa Assistance</div>
             </div>
           </div>
         </div>
@@ -124,31 +130,32 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Explore Opportunities Worldwide
+              International Internship Programs
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Partner with leading agricultural organizations across the globe
+              Current destinations for agricultural training and internships (2025)
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {countries.map((country, index) => (
               <Card key={index} className="hover:shadow-lg transition-all duration-300 border-0 shadow-md hover:scale-105">
-                <CardContent className="p-6">
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="flex items-center space-x-3">
-                      <span className="text-3xl">{country.flag}</span>
-                      <h3 className="text-xl font-semibold text-gray-900">{country.name}</h3>
-                    </div>
-                    <Badge variant="secondary" className="bg-green-100 text-green-800">
-                      {country.programs} Programs
-                    </Badge>
+                <CardContent className="p-8">
+                  <div className="flex items-center mb-6">
+                    <span className="text-4xl mr-4">{country.flag}</span>
+                    <h3 className="text-2xl font-bold text-gray-900">{country.name}</h3>
                   </div>
                   
-                  <div className="space-y-2">
-                    <div className="flex items-center text-gray-600">
-                      <MapPin className="h-4 w-4 mr-2" />
-                      <span className="text-sm">Average Stipend: {country.avgSalary}</span>
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-700 mb-2">Available Programs:</h4>
+                      <Badge variant="secondary" className="bg-green-100 text-green-800">
+                        {country.programs}
+                      </Badge>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-700 mb-2">Key Features:</h4>
+                      <p className="text-gray-600 text-sm">{country.features}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -163,10 +170,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Simple 4-Step Process
+              Admission Process for International Internship
             </h2>
             <p className="text-lg text-gray-600">
-              From application to placement, we guide you every step of the way
+              Simple steps to secure your agricultural training abroad
             </p>
           </div>
           
@@ -267,7 +274,7 @@ const Index = () => {
       {/* Floating Call Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <a 
-          href="tel:+919876543210" 
+          href="tel:+917972939738" 
           className="group flex items-center bg-green-600 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-700 transition-all duration-200 hover:scale-105"
         >
           <div className="bg-white/20 rounded-full p-2 mr-3">
@@ -277,7 +284,7 @@ const Index = () => {
           </div>
           <div className="text-left">
             <div className="text-sm font-semibold">Get Free Consultation</div>
-            <div className="text-xs opacity-90">+91 98765 43210</div>
+            <div className="text-xs opacity-90">+91 79729 39738</div>
           </div>
         </a>
       </div>
