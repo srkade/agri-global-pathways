@@ -31,7 +31,7 @@ const UserDashboard = () => {
   const [notifications, setNotifications] = useState([
     { id: 1, message: "Profile updated successfully", time: "2 hours ago", read: false },
     { id: 2, message: "Document verification in progress", time: "1 day ago", read: false },
-    { id: 3, message: "Welcome to AgriPath!", time: "3 days ago", read: true }
+    { id: 3, message: "Welcome to Go2Agro!", time: "3 days ago", read: true }
   ]);
 
   useEffect(() => {

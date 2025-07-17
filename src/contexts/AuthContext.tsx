@@ -44,7 +44,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setLoading(true);
     await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
     
-    if (email === 'admin@agripath.com' && password === 'admin123') {
+    if (email === 'admin@go2agro.com' && password === 'admin123') {
       const adminUser = { id: '1', email, name: 'Admin', isAdmin: true };
       setUser(adminUser);
       localStorage.setItem('user', JSON.stringify(adminUser));

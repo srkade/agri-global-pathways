@@ -36,7 +36,7 @@ const Login = () => {
           description: "You have successfully signed in.",
         });
         // Redirect admin to admin dashboard, regular users to user dashboard
-        if (email === 'admin@agripath.com') {
+        if (email === 'admin@go2agro.com') {
           navigate("/admin");
         } else {
           navigate("/dashboard");
@@ -59,7 +59,7 @@ const Login = () => {
               <Sprout className="h-7 w-7 text-white" />
             </div>
             <span className="text-3xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-              AgriPath
+              Go2Agro
             </span>
           </Link>
         </div>
@@ -142,7 +142,7 @@ const Login = () => {
             <div className="mt-6 p-4 bg-gray-50 rounded-lg">
               <p className="text-sm font-medium text-gray-700 mb-2">Demo Credentials:</p>
               <div className="text-xs text-gray-600 space-y-1">
-                <p><strong>Admin:</strong> admin@agripath.com / admin123</p>
+                <p><strong>Admin:</strong> admin@go2agro.com / admin123</p>
                 <p><strong>User:</strong> Any valid email / any password</p>
               </div>
             </div>

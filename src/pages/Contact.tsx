@@ -49,19 +49,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      info: "support@agripath.com",
+      info: "info@go2agro.com",
       description: "Send us an email anytime"
     },
     {
       icon: Phone,
       title: "Call Us",
-      info: "+91 98765 43210",
+      info: "+91 79729 39738",
       description: "Mon-Fri, 9 AM - 6 PM IST"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      info: "New Delhi, India",
+      info: "City Vista, Downtown Road, Kharadi, Pune - 411014",
       description: "Schedule an appointment"
     },
     {
@@ -239,7 +239,7 @@ const Contact = () => {
                     Get instant help on WhatsApp. Our team is available to answer your questions quickly.
                   </p>
                   <a 
-                    href="https://wa.me/919876543210" 
+                    href="https://wa.me/917972939738" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >

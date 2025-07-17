@@ -62,7 +62,7 @@ const Register = () => {
       if (success) {
         toast({
           title: "Account created successfully!",
-          description: "Welcome to AgriPath. You can now complete your profile.",
+          description: "Welcome to Go2Agro. You can now complete your profile.",
         });
         navigate("/dashboard");
       } else {
@@ -83,7 +83,7 @@ const Register = () => {
               <Sprout className="h-7 w-7 text-white" />
             </div>
             <span className="text-3xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-              AgriPath
+              Go2Agro
             </span>
           </Link>
         </div>

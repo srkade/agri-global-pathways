@@ -62,7 +62,7 @@ const About = () => {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              About AgriPath
+              About Go2Agro
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Bridging the gap between Indian agricultural talent and international opportunities. 
@@ -164,20 +164,20 @@ const About = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
             <div className="text-gray-600 space-y-4">
               <p>
-                AgriPath was founded in 2020 by a group of agricultural enthusiasts who recognized 
-                the immense potential of Indian youth in global agriculture. Having experienced the 
-                transformative power of international agricultural exposure firsthand, our founders 
-                wanted to create a platform that could systematically connect talented individuals 
-                with world-class opportunities.
+                Go2Agro Services LLP was founded as a Pune-based agricultural training and consulting 
+                company with a mission to empower the next generation of agri-professionals through 
+                international exposure and real-world experience. Our founders recognized the immense 
+                potential of Indian youth in global agriculture and created pathways for students and 
+                farmers to gain valuable experience abroad.
               </p>
               <p>
-                What started as a small initiative to help a few students has now grown into a 
-                comprehensive platform that has successfully placed over 500 students across 15+ 
-                countries. Our success lies in our holistic approach - from initial counseling and 
-                profile building to visa support and post-placement follow-up.
+                Starting with partnerships in Germany and the UK, we provide comprehensive programs 
+                including greenhouse farming, dairy management, poultry, and crop management training. 
+                Our approach combines hands-on experience with exposure to European farming technologies 
+                and practices, along with our 30-day Agri Professional Development Program (APDP).
               </p>
               <p>
-                Today, AgriPath alumni are making significant contributions to sustainable agriculture 
+                Today, Go2Agro alumni are making significant contributions to sustainable agriculture 
                 worldwide, bringing back invaluable knowledge and experience to transform Indian 
                 agriculture. We're proud to be part of their journey and committed to expanding 
                 opportunities for the next generation of agricultural leaders.
